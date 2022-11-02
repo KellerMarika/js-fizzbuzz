@@ -29,7 +29,7 @@ for (let i = 1; i <= 100; i++) {
 
     if (i % 3 === 0 && i % 5 === 0) {
         //console.log(`${i % 3 === 0 && i % 5 === 0}`);
-        squareText = "fizzbuzz";
+        squareText = `fizz<br>buzz`;
         squareColor = "bg-fizzbuzz";
 
     } else if (i % 3 === 0) {

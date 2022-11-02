@@ -1,11 +1,13 @@
 body{
-    background-color:rgb(12, 85, 85);
+    background-color:rgba(46, 23, 255, 0.664);
+    font-family: 'BIZ UDMincho', serif;
 }
 .square {
     width: calc((100% - 6rem) / 7);
     aspect-ratio: 1/1;
-    box-shadow: 0px 0px 10px 2px inset rgba(26, 7, 233, 0.438);
-    font-size: 24px;
+    box-shadow: 0px 0px 10px 20px inset rgba(48, 28, 66, 0.295);
+    border: 6px solid  rgba(48, 28, 66, 0.507);
+    font-size:2.4rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -14,11 +16,11 @@ body{
 
 .bg-fizz {
 
-    background-color: rgb(127, 255, 159);
+    background-color: rgb(163, 255, 127);
 }
 
 .bg-buzz {
-    background-color: rgb(252, 177, 106);
+    background-color: hsl(36, 100%, 50%)
 }
 
 .bg-fizzbuzz {
@@ -26,5 +28,5 @@ body{
 }
 
 .bg-base {
-    background-color: rgba(104, 176, 243, 0.774);
+    background-color: rgba(48, 74, 99, 0.774);
 }
