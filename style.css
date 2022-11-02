@@ -1,16 +1,11 @@
-#square-container {
-    border: 1px solid rgba(88, 85, 82, 0.322);
-    position: relative;
-    transform: translateY(50%);
-    padding: 0 200px;
+body{
+    background-color:rgb(12, 85, 85);
 }
-
-
 .square {
     width: calc((100% - 6rem) / 7);
     aspect-ratio: 1/1;
     box-shadow: 0px 0px 10px 2px inset rgba(26, 7, 233, 0.438);
-    background-color: rgb(127, 255, 159);
+    font-size: 24px;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -18,7 +13,8 @@
 }
 
 .bg-fizz {
-    background-color: rgba(104, 176, 243, 0.774);
+
+    background-color: rgb(127, 255, 159);
 }
 
 .bg-buzz {
@@ -26,8 +22,9 @@
 }
 
 .bg-fizzbuzz {
-    background-color: rgb(218, 72, 128);
+    background-color: rgba(253, 4, 99, 0.781);
 }
- .bg-base{
- background-color: rgb(127, 255, 159);
-} 
+
+.bg-base {
+    background-color: rgba(104, 176, 243, 0.774);
+}
