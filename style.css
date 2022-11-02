@@ -1,16 +1,33 @@
-
-
-
-#square-container{
-border: 1px solid rgba(88, 85, 82, 0.322);
-position: relative;
-transform: translateY(50%);
-padding: 0 200px;
+#square-container {
+    border: 1px solid rgba(88, 85, 82, 0.322);
+    position: relative;
+    transform: translateY(50%);
+    padding: 0 200px;
 }
 
 
-.square{
-    width: calc((100% - 6rem) / 7 );
+.square {
+    width: calc((100% - 6rem) / 7);
     aspect-ratio: 1/1;
-    box-shadow: 0px 0px 10px  2px inset rgba(26, 7, 233, 0.438);
+    box-shadow: 0px 0px 10px 2px inset rgba(26, 7, 233, 0.438);
+    background-color: rgb(127, 255, 159);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.bg-fizz {
+    background-color: rgba(104, 176, 243, 0.774);
+}
+
+.bg-buzz {
+    background-color: rgb(252, 177, 106);
+}
+
+.bg-fizzbuzz {
+    background-color: rgb(218, 72, 128);
+}
+ .bg-base{
+ background-color: rgb(127, 255, 159);
+} 
